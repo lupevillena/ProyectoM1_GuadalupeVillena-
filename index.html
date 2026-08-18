@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Colores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="main-header">
+    <h1><span class="verde">Colorfly</span> <span class="blanco">Studio</span></h1>
+    <hr>
+    </header>
+
+<main>
+    <p class="subtitulo">
+        Explora, crea y encuentra tu paleta de colores perfecta
+    </p>
+
+    <div class="contenedor-cards">
+      <section class="card">
+        <h2 id="titulo">Tamaño</h2>
+        <select id="cantidad-colores">
+          <option value="6">6 colores</option>
+          <option value="8">8 colores</option>
+          <option value="9">9 colores</option>
+        </select>
+      </section>
+
+      <section class="card">
+        <h2 id="formato">Formato</h2>
+        <select id="formato-color">
+          <option value="hsl">HSL</option>
+          <option value="hex">HEX</option>
+        </select>
+      </section>
+
+      <button id="boton" class="boton">Generar</button>
+    </div>
+
+    <div id="paleta"></div>
+</main>
+
+<footer>
+  <p>© 2026 Colorfly Studio</p>
+  <div class="redes">
+    <a href="https://github.com/lupevillena" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a>
+  </div>
+</footer>
+
+<script src="./colores.js"></script>
+</body>
+</html>
