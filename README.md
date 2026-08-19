@@ -1,11 +1,42 @@
 # Colorfly Studio
 
+##  Índice
+
+- [Demo](#demo)
+- [Descripción](#descripción)
+- [Objetivos del proyecto](#objetivos-del-proyecto)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Uso de la aplicación](#uso-de-la-aplicación)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Decisiones de diseño](#decisiones-de-diseño)
+- [Instalación y ejecución](#instalación-y-ejecución)
+- [Despliegue](#despliegue)
+- [Uso de Inteligencia Artificial](#uso-de-inteligencia-artificial)
+- [Capturas](#capturas)
+- [Autor](#autor)
+
+## Demo
+
+https://lupevillena.github.io/ProyectoM1_GuadalupeVillena-/
+
 ## Descripción
-https://github.com/lupevillena/ProyectoM1_GuadalupeVillena-
 
 Proyecto Integrador – Módulo 1 | Full Stack – Henry
 Colorfly Studio es una aplicación web estatica que permite generar paletas de colores aleatorias
 El usuario puede elegir entre diferentes cantidades de colores y seleccionar el formato en el que desea visualizar los códigos de color.
+
+## Objetivos del proyecto
+
+Los principales objetivos de Colorfly Studio son:
+
+- Aplicar conocimientos de HTML, CSS y JavaScript.
+- Trabajar con manipulación del DOM mediante JavaScript.
+- Generar colores aleatoriamente.
+- Crear una interfaz sencilla y visualmente atractiva.
+- Implementar elementos interactivos mediante botones y listas desplegables.
+- Practicar el uso de Git y GitHub.
+- Publicar una aplicación web utilizando GitHub Pages.
 
 ## Funcionalidades
 
@@ -67,6 +98,40 @@ Se utilizó la tipografía **Inter** por su estilo moderno, limpio y fácil de l
 
 Además, se priorizó una estructura responsive para facilitar el uso de la aplicación en diferentes dispositivos.
 
+## 💻 Instalación y ejecución
+
+Para ejecutar Colorfly Studio de manera local, sigue los siguientes pasos:
+
+1. Clonar el repositorio
+
+Desde una terminal, ejecuta:
+
+git clone https://github.com/lupevillena/ProyectoM1_GuadalupeVillena-.git
+
+2. Entrar al proyecto
+
+cd ProyectoM1_GuadalupeVillena-
+
+3. Abrir el archivo
+
+Abrir el archivo index.html en un navegador web.
+
+También puedes utilizar Live Server desde Visual Studio Code para ejecutar la aplicación durante el desarrollo.
+
+## Despligue
+
+La aplicación fue desplegada utilizando GitHub Pages.
+
+Pasos realizados:
+1. Creación del repositorio en GitHub.
+2. Desarrollo de la aplicación utilizando HTML, CSS y JavaScript.
+3. Control de versiones mediante Git.
+4. Creación de commits para registrar los cambios.
+5. Subida del proyecto al repositorio mediante Git.
+6. Configuración de GitHub Pages.
+7. Publicación de la aplicación.
+
+
 ## Uso de Inteligencia Artificial
 
 Se utilizó inteligencia artificial como herramienta de apoyo durante el desarrollo del proyecto para:
@@ -75,14 +140,6 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 - Recibir orientación sobre la estructura del proyecto.
 - Comprender conceptos de Git y GitHub.
 - Revisar aspectos básicos de accesibilidad.
-
-Los prompts utilizados y sus resultados se encuentran en la carpeta:
-
-## Uso de Inteligencia Artificial
-
-Durante el desarrollo de Colorfly Studio se utilizó inteligencia artificial como herramienta de apoyo para resolver dudas, comprender conceptos de programación y mejorar algunos aspectos del proyecto.
-
-La IA se utilizó como apoyo y las decisiones finales, implementación y modificaciones del código fueron realizadas por el estudiante.
 
 ### Ejemplos de prompts utilizados
 
