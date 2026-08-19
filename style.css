@@ -111,7 +111,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5px;
+  gap: 6px;
   margin-bottom: 20px;
 }
 
