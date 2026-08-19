@@ -149,6 +149,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 > ¿Cómo puedo crear dos listas desplegables en HTML, una para seleccionar entre 6, 8 y 9 colores y otra para seleccionar entre los formatos HEX y RGBA?
 
+<img src="IA/capturas/01-html.png" width="400">
+
 **Resultado:**
 
 La IA explicó cómo utilizar los elementos `<select>` y `<option>` para crear las listas desplegables y cómo obtener sus valores posteriormente mediante JavaScript.

@@ -155,6 +155,27 @@ select:hover {
   transform: translateY(-4px);
 }
 
+.color {
+  position: relative;
+}
+
+.boton-copiar {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  opacity: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.color:hover .boton-copiar {
+  opacity: 1;
+}
 .mensaje-copiado {
   position: fixed;
   bottom: 80px;

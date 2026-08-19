@@ -39,18 +39,22 @@ function generarPaleta() {
     const cuadro = document.createElement("div");
     cuadro.classList.add("color");
     cuadro.style.backgroundColor = color;
-    cuadro.textContent = color;
 
-    const icono = document.createElement("span");
-    icono.classList.add("icono-copiar");
-    icono.innerHTML = "📋";
-    cuadro.appendChild(icono);
+    const textoColor = document.createElement("span");
+    textoColor.textContent = color;
 
-    cuadro.addEventListener("click", () => {
+    const botonCopiar = document.createElement("button");
+    botonCopiar.classList.add("boton-copiar");
+    botonCopiar.innerHTML = "⧉";
+    botonCopiar.title = "Copiar color";
+
+    botonCopiar.addEventListener("click", (event) => {
+      event.stopPropagation();
+
       navigator.clipboard.writeText(color);
 
       const mensaje = document.createElement("div");
-      mensaje.textContent = "¡Copiado!";
+      mensaje.textContent = "✓ Copiado";
       mensaje.classList.add("mensaje-copiado");
 
       document.body.appendChild(mensaje);
@@ -59,6 +63,9 @@ function generarPaleta() {
         mensaje.remove();
       }, 1500);
     });
+
+    cuadro.appendChild(textoColor);
+    cuadro.appendChild(botonCopiar);
 
     paleta.appendChild(cuadro);
   }
