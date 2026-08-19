@@ -18,13 +18,13 @@ body {
 
 
 #main-header {
-    padding: 20px 0;
+    padding: 21px 0;
 }
 
 
 #main-header h1 {
     font-size: 1.9rem;
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.06gitrem;
     padding: 10px 10px 0 10px;
     text-align: center;
 }
