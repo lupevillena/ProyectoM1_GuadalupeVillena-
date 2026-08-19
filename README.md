@@ -64,6 +64,8 @@ Los principales objetivos de Colorfly Studio son:
 4. La aplicación mostrará una paleta de colores aleatoria.
 
 ## Estructura del proyecto
+
+```
 ProyectoM1_Lupe/
 │
 ├── Desarrollo/
@@ -75,18 +77,14 @@ ProyectoM1_Lupe/
 │
 ├── Documentacion/
 │   ├── README.md
-│   │
-│   └── capturas/
-│       ├── inicio.png
-│       ├── seleccion-colores.png
-│       └── paleta-generada.png
+│   ├── capturas/
+│   │   └── flujo-app/
+│       └── flujo-colorfly.gif
 │
 └── IA/
     ├── prompts.md
-    └── capturas/
-        ├── prompt-html.png
-        ├── prompt-javascript.png
-        └── prompt-accesibilidad.png
+    └── capturas
+```
 
 ## Decisiones de diseño
 
