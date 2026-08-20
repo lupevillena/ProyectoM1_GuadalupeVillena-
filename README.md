@@ -174,6 +174,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 - Prompt: "quiero que colorfly sea verde y studio blanco"
 
+![Captura 1](documentacion/ai/1.png)
+
 - Uso: Separar palabras del título con distintos colores.
 
 - Resultado: Se usó `<span>` con clases `.verde` y `.blanco` para diferenciar el estilo de cada palabra dentro del mismo `<h1>`.
@@ -181,6 +183,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 2. Lógica del generador de paleta
 
 - Prompt: Consulta sobre cómo armar la lógica dentro del `addEventListener` del botón generar.
+
+![Captura 2](documentacion/ai/2.png)
 
 - Uso: Entender el flujo necesario para generar la paleta de colores.
 
@@ -190,6 +194,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 - Prompt: Revisión de código con errores (`boton` no definido, `addEventListener` sin lógica).
 
+![Captura 3](documentacion/ai/3.png)
+
 - Uso:Detectar bugs antes de seguir avanzando con el proyecto.
 
 - Resultado: Se identificaron las variables faltantes y los pasos necesarios (contenedor, `for`, `if`, creación de `div`) para que se mostraran los cuadros de color.
@@ -197,6 +203,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 4. Corrección para mostrar los cuadros
 
 - Prompt: "como arreglo el punto 3 para que se muestren los cuadros de colores"
+
+![Captura 4](documentacion/ai/4.png)
 
 - Uso: Corregir el problema detectado en la revisión anterior.
 
@@ -206,6 +214,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 - Prompt: Consulta sobre cómo armar los `<select>` de formato de color y cantidad de colores.
 
+![Captura 5](documentacion/ai/5.png)
+
 - Uso: Crear las listas desplegables del proyecto.
 
 - Resultado: Se armaron los `<select>` con los `id` correctos (`cantidad-colores`, `formato-color`) y sus respectivas opciones.
@@ -213,6 +223,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 6. Organización de funciones en JavaScript
 
 - Prompt: "estoy pensando que para JavaScript puedo poner functions para generar el hsl, hex y que al presionar el botón se creen las paletas aleatorias..."
+
+![Captura 6](documentacion/ai/6.png)
 
 - Uso: Validar la idea de separar la lógica del proyecto en funciones.
 
@@ -222,6 +234,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 - Prompt: Continuación de la consulta anterior sobre cómo organizar las funciones del proyecto.
 
+![Captura 7](documentacion/ai/7.png)
+
 - Uso:  Tener claridad sobre el rol de cada función dentro del código.
 
 - Resultado: Se armó un resumen de qué hace cada función (`generarHex`, `generarHsl`, `generarPaleta`, `addEventListener`) y si usa o no `querySelector`.
@@ -229,6 +243,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 8. Agrupar estilos de los títulos
 
 - Prompt: "los dos títulos van al mismo nivel y son hermanas, para hacer cambios de color de letra y demás los debería agrupar en class= card h2"
+
+![Captura 8](documentacion/ai/8.png)
 
 - Uso: Aplicar estilos compartidos a los títulos de ambas tarjetas.
 
@@ -238,6 +254,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 - Prompt: Consulta sobre cómo poner las tarjetas de cantidad y formato una al lado de la otra.
 
+![Captura 9](documentacion/ai/9.png)
+
 - Uso: Alinear horizontalmente los controles de la interfaz.
 
 - Resultado: Se envolvieron ambas tarjetas en un `<div class="contenedor-cards">` con `display: flex` y `gap` entre ellas.
@@ -245,6 +263,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 10. Tipografía y alineación horizontal
 
 - Prompt: "quiero que el tipo de letra sea mas delgado y que esten a la par horizontalmente los dos"
+
+![Captura 10](documentacion/ai/10.png)
 
 - Uso: Ajustar el grosor de la tipografía y confirmar la alineación de las tarjetas.
 
@@ -254,6 +274,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 - Prompt: "quiero el boton de generar debajo de formato y cantidad y que este en el medio"
 
+![Captura 11](documentacion/ai/11.png)
+
 - Uso: Posicionar el botón de generar paleta debajo de los controles y centrado.
 
 - Resultado: Se ajustó `.boton` con `display: block` y `margin: 0 auto` para centrarlo horizontalmente.
@@ -261,6 +283,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 12. Depuración de posición del botón
 
 - Prompt: "se sigue moviendo el boton de generar"
+
+![Captura 12](documentacion/ai/12.png)
 
 - Uso: Diagnosticar un problema de posicionamiento que persistía.
 
@@ -270,6 +294,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 - Prompt: "quiero hacer los cuadrados de los colores mas grandes y que los bordes sean redondeados"
 
+![Captura 13](documentacion/ai/13.png)
+
 - Uso: Mejorar el tamaño y la forma visual de los cuadros de la paleta.
 
 - Resultado: Se indicó agregar `width`, `height` y `border-radius` dentro de la clase `.color`.
@@ -277,6 +303,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 14. Ajuste de bordes redondeados
 
 - Prompt: Continuación de la consulta anterior sobre los bordes de los cuadros.
+
+![Captura 14](documentacion/ai/14.png)
 
 - Uso: Aplicar el estilo correctamente a los cuadros generados dinámicamente por JavaScript.
 
@@ -286,6 +314,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 - Prompt: "en el footer quiero meter mi cuenta de github y mi perfil de linkedin"
 
+![Captura 15](documentacion/ai/15.png)
+
 - Uso: Agregar enlaces a redes sociales en el pie de página.
 
 - Resultado: Se agregó un `<footer>` con enlaces a GitHub y LinkedIn, junto con su estilo correspondiente.
@@ -293,6 +323,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 16. Función de copiar al portapapeles
 
 - Prompt:"ya tengo mi proyecto casi hecho me falta que al hacer click en un color se copie automáticamente, que diga un mensaje de copiado y que desaparezca"
+
+![Captura 16](documentacion/ai/16.png)
 
 - Uso: Implementar la función de copiar el color al portapapeles con confirmación visual.
 
@@ -302,6 +334,9 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 - Prompt: "lo que me falta es el icono de copiar"
 
+![Captura 17](documentacion/ai/17.png)
+
+
 - Uso: Agregar un ícono visual sobre cada cuadro de color.
 
 - Resultado: Se creó un `<span>` con la clase `.icono-copiar`, insertado dentro de cada cuadro generado por JavaScript.
@@ -309,6 +344,8 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 18. Comportamiento final del ícono al pasar el mouse
 
 - Resultado: "ya entendi que quiero, que el icono de copiar salga cuando pase el mouse por el color y que al apretarlo se copie y aparezca el cartel de copiado"
+
+![Captura 18](documentacion/ai/18.jpg)
 
 - Uso:  Definir el comportamiento final de la interacción entre el ícono y el mensaje de confirmación.
 
