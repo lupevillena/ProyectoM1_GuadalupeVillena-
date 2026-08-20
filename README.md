@@ -132,26 +132,30 @@ Pasos realizados:
 
 <<img src="documentacion/flujo%20de%20app/1.jpg" width="900">
 
-La aplicación muestra la pantalla principal de Colorfly Studio, donde el usuario puede seleccionar la cantidad de colores y el formato.
-
+La aplicación muestra la pantalla principal de Colorfly Studio, donde se ven los botones de tamaño, cantidad y generar
  2. Selección de colores
 
 <img src="documentacion/flujo%20de%20app/2.jpg" width="900">
 
-El usuario puede elegir generar una paleta de 6, 8 o 9 colores y puede elegir entre formato Hsl y Hex
+El usuario puede elegir generar una paleta de 6, 8 o 9 colores 
 
- 3. Generación de la paleta
+ 3. Selección de formato
 
 <img src="documentacion/flujo%20de%20app/3.jpg" width="900">
 
-Al presionar el botón "Generar", se crea una paleta de colores aleatoria.
+El usuario puede elegir entre el formato Hsl y Hex Generación de la paleta Al presionar el botón "Generar", se crea una paleta de colores aleatoria.
 
- 4. Copiar un color
+ 4. Generación de la paleta
 
 <img src="documentacion/flujo%20de%20app/4.jpg" width="900">
+Al presionar el botón "Generar", se crea una paleta de colores aleatoria.
+
+
+5. Copiar un color
+
+<img src="documentacion/flujo%20de%20app/5.jpg" width="900">
 
 Al pasar el cursor sobre un color aparece el botón de copiar. Al hacer clic, el código del color se copia y aparece el mensaje "Copiado".
-
 
 ## Uso de Inteligencia Artificial
 
