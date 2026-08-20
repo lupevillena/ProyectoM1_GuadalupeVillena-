@@ -168,56 +168,97 @@ Se utilizó inteligencia artificial como herramienta de apoyo durante el desarro
 
 ### Ejemplos de prompts utilizados
 
-#### Prompt 1 — Estructura HTML
+## Uso de la IA en el desarrollo del proyecto
 
-**Prompt:**
+### 1. Colores del título
+**Prompt:** "quiero que colorfly sea verde y studio blanco"
+**Uso:** Separar palabras del título con distintos colores.
+**Resultado:** Se usó `<span>` con clases `.verde` y `.blanco` para diferenciar el estilo de cada palabra dentro del mismo `<h1>`.
 
-> ¿Cómo puedo crear dos listas desplegables en HTML, una para seleccionar entre 6, 8 y 9 colores y otra para seleccionar entre los formatos HEX y RGBA?
+### 2. Lógica del generador de paleta
+**Prompt:** Consulta sobre cómo armar la lógica dentro del `addEventListener` del botón generar.
+**Uso:** Entender el flujo necesario para generar la paleta de colores.
+**Resultado:** Se explicó el orden de pasos: limpiar el contenedor, recorrer con `for` según la cantidad elegida, generar el color según el formato, crear el elemento y agregarlo al DOM.
 
-<img src="IA/capturas/01-html.png" width="400">
+### 3. Detección de errores en el código
+**Prompt:** Revisión de código con errores (`boton` no definido, `addEventListener` sin lógica).
+**Uso:** Detectar bugs antes de seguir avanzando con el proyecto.
+**Resultado:** Se identificaron las variables faltantes y los pasos necesarios (contenedor, `for`, `if`, creación de `div`) para que se mostraran los cuadros de color.
 
-**Resultado:**
+### 4. Corrección para mostrar los cuadros
+**Prompt:** "como arreglo el punto 3 para que se muestren los cuadros de colores"
+**Uso:** Corregir el problema detectado en la revisión anterior.
+**Resultado:** Se completó el `addEventListener` agregando el contenedor `paleta`, el `for` con la cantidad y el `if` para elegir el formato.
 
-La IA explicó cómo utilizar los elementos `<select>` y `<option>` para crear las listas desplegables y cómo obtener sus valores posteriormente mediante JavaScript.
+### 5. Listas desplegables de formato y cantidad
+**Prompt:** Consulta sobre cómo armar los `<select>` de formato de color y cantidad de colores.
+**Uso:** Crear las listas desplegables del proyecto.
+**Resultado:** Se armaron los `<select>` con los `id` correctos (`cantidad-colores`, `formato-color`) y sus respectivas opciones.
 
-**Uso en el proyecto:**
+### 6. Organización de funciones en JavaScript
+**Prompt:** "estoy pensando que para JavaScript puedo poner functions para generar el hsl, hex y que al presionar el botón se creen las paletas aleatorias..."
+**Uso:** Validar la idea de separar la lógica del proyecto en funciones.
+**Resultado:** Se confirmó el enfoque correcto y se aclaró que el `querySelector` solo se necesita declarar una vez por elemento, no dentro de cada función.
 
-Se utilizó esta orientación para implementar los selectores de cantidad de colores y formato.
+### 7. Resumen de la lógica de funciones
+**Prompt:** Continuación de la consulta anterior sobre cómo organizar las funciones del proyecto.
+**Uso:** Tener claridad sobre el rol de cada función dentro del código.
+**Resultado:** Se armó un resumen de qué hace cada función (`generarHex`, `generarHsl`, `generarPaleta`, `addEventListener`) y si usa o no `querySelector`.
 
----
+### 8. Agrupar estilos de los títulos
+**Prompt:** "los dos títulos van al mismo nivel y son hermanas, para hacer cambios de color de letra y demás los debería agrupar en class= card h2"
+**Uso:** Aplicar estilos compartidos a los títulos de ambas tarjetas.
+**Resultado:** Se confirmó el uso del selector combinado `.card h2` para unificar el color, alineación y tamaño de ambos títulos.
 
-#### Prompt 2 — Generación de colores
+### 9. Alinear las tarjetas en fila
+**Prompt:** Consulta sobre cómo poner las tarjetas de cantidad y formato una al lado de la otra.
+**Uso:** Alinear horizontalmente los controles de la interfaz.
+**Resultado:** Se envolvieron ambas tarjetas en un `<div class="contenedor-cards">` con `display: flex` y `gap` entre ellas.
 
-**Prompt:**
+### 10. Tipografía y alineación horizontal
+**Prompt:** "quiero que el tipo de letra sea mas delgado y que esten a la par horizontalmente los dos"
+**Uso:** Ajustar el grosor de la tipografía y confirmar la alineación de las tarjetas.
+**Resultado:** Se aplicó `font-weight: 300` para una letra más delgada y se confirmó el uso de flexbox para mantener las tarjetas alineadas.
 
-> ¿Cómo puedo utilizar Math.random() en JavaScript para generar colores aleatorios para una paleta?
+### 11. Centrar el botón de generar
+**Prompt:** "quiero el boton de generar debajo de formato y cantidad y que este en el medio"
+**Uso:** Posicionar el botón de generar paleta debajo de los controles y centrado.
+**Resultado:** Se ajustó `.boton` con `display: block` y `margin: 0 auto` para centrarlo horizontalmente.
 
-**Resultado:**
+### 12. Depuración de posición del botón
+**Prompt:** "se sigue moviendo el boton de generar"
+**Uso:** Diagnosticar un problema de posicionamiento que persistía.
+**Resultado:** Se solicitó el HTML actualizado para identificar la causa exacta del movimiento del botón.
 
-La IA explicó cómo utilizar `Math.random()` y `Math.floor()` para generar valores RGB aleatorios entre 0 y 255.
+### 13. Tamaño y bordes de los cuadros de color
+**Prompt:** "quiero hacer los cuadrados de los colores mas grandes y que los bordes sean redondeados"
+**Uso:** Mejorar el tamaño y la forma visual de los cuadros de la paleta.
+**Resultado:** Se indicó agregar `width`, `height` y `border-radius` dentro de la clase `.color`.
 
-**Uso en el proyecto:**
+### 14. Ajuste de bordes redondeados
+**Prompt:** Continuación de la consulta anterior sobre los bordes de los cuadros.
+**Uso:** Aplicar el estilo correctamente a los cuadros generados dinámicamente por JavaScript.
+**Resultado:** Se explicó que el estilo debía ir en la clase `.color` (no en `#paleta`), ya que es la clase que el JS asigna a cada cuadro individual.
 
-La explicación se utilizó como referencia para desarrollar la función de generación aleatoria de colores.
+### 15. Footer con redes sociales
+**Prompt:** "en el footer quiero meter mi cuenta de github y mi perfil de linkedin"
+**Uso:** Agregar enlaces a redes sociales en el pie de página.
+**Resultado:** Se agregó un `<footer>` con enlaces a GitHub y LinkedIn, junto con su estilo correspondiente.
 
----
+### 16. Función de copiar al portapapeles
+**Prompt:** "ya tengo mi proyecto casi hecho me falta que al hacer click en un color se copie automáticamente, que diga un mensaje de copiado y que desaparezca"
+**Uso:** Implementar la función de copiar el color al portapapeles con confirmación visual.
+**Resultado:** Se agregó `navigator.clipboard.writeText()` dentro del evento `click` de cada cuadro, junto con un mensaje temporal eliminado mediante `setTimeout`.
 
-#### Prompt 3 — Accesibilidad
+### 17. Ícono de copiar
+**Prompt:** "lo que me falta es el icono de copiar"
+**Uso:** Agregar un ícono visual sobre cada cuadro de color.
+**Resultado:** Se creó un `<span>` con la clase `.icono-copiar`, insertado dentro de cada cuadro generado por JavaScript.
 
-**Prompt:**
-
-> ¿Qué consideraciones básicas de accesibilidad debería tener un generador de paletas de colores?
-
-**Resultado:**
-
-La IA recomendó utilizar labels asociados a los elementos de formulario, mantener un contraste suficiente y proporcionar un foco visible para los elementos interactivos.
-
-**Uso en el proyecto:**
-
-Estas recomendaciones se utilizaron para mejorar la accesibilidad de la interfaz.
-
----
-
+### 18. Comportamiento final del ícono al pasar el mouse
+**Prompt:** "ya entendi que quiero, que el icono de copiar salga cuando pase el mouse por el color y que al apretarlo se copie y aparezca el cartel de copiado"
+**Uso:** Definir el comportamiento final de la interacción entre el ícono y el mensaje de confirmación.
+**Resultado:** Se explicó el flujo completo: pasar el mouse sobre el color → aparece el ícono → clic en el ícono → se copia el color → aparece el mensaje "Copiado" → el mensaje desaparece automáticamente.
 ### Capturas de los prompts y resultados
 
 Las capturas de las conversaciones utilizadas durante el desarrollo se encuentran en:
