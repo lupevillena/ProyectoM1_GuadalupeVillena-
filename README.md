@@ -14,7 +14,6 @@
 - [Despliegue](#despliegue)
 - [Flujo principal de la app](#flujo-principal-de-la-app)
 - [Uso de Inteligencia Artificial](#uso-de-inteligencia-artificial)
-- [Capturas](#capturas)
 - [Autor](#autor)
 
 ## Demo
@@ -71,12 +70,20 @@ ProyectoM1_Guadalupe_Villena/
 │
 ├── README.md
 │
-├── Documentacion/
-│   └── flujo-app/
-│       ├── 01-inicio.png
-│       ├── 02-seleccion.png
-│       ├── 03-paleta.png
-│       └── ...
+├── documentacion/
+│   ├── ai/
+│   │   ├── 1.png
+│   │   ├── 2.png
+│   │   ├── 3.png
+│   │   ├── ...
+│   │   └── 18.jpg
+│   │
+│   └── flujo de app/
+│       ├── 1.jpg
+│       ├── 2.jpg
+│       ├── 3.jpg
+│       ├── 4.jpg
+│       └── 5.jpg
 │
 ├── index.html
 ├── style.css
